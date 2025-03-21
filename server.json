@@ -1,20 +1,36 @@
 {
-    "transactions": [
-        {
-            "id": 1,
-            "description": "Web Development",
-            "type": "income",
-            "category": "Sale",
-            "price": 14000,
-            "createdAt": "2021-01-01T00:00:00.000Z"
-        },
-        {
-            "id": 2,
-            "description": "Hamburger",
-            "type": "outcome",
-            "category": "Food",
-            "price": 10,
-            "createdAt": "2023-01-01T00:00:00.000Z"
-        }
-    ]
+  "transactions": [
+    {
+      "id": 1,
+      "description": "Web Development",
+      "type": "income",
+      "category": "Sale",
+      "price": 14000,
+      "createdAt": "2021-01-01T00:00:00.000Z"
+    },
+    {
+      "id": 2,
+      "description": "Hamburger",
+      "type": "outcome",
+      "category": "Food",
+      "price": 10,
+      "createdAt": "2023-01-01T00:00:00.000Z"
+    },
+    {
+      "category": "Sale",
+      "description": "App development",
+      "price": 10000,
+      "type": "income",
+      "createdAt": "2025-03-21T19:01:45.325Z",
+      "id": 3
+    },
+    {
+      "category": "Food",
+      "description": "Yogurt",
+      "price": 3,
+      "type": "outcome",
+      "createdAt": "2025-03-21T19:16:54.380Z",
+      "id": 4
+    }
+  ]
 }
