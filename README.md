@@ -41,6 +41,8 @@ This project can be deployed to any static hosting provider (e.g., Netlify, Verc
 
 ## Live Demo
 
+[View the live project here](https://dtmoney-perciliano.netlify.app/)
+
 
 ## Screenshots 📸
 ![dtMoney-NewTransaction](https://github.com/user-attachments/assets/02e6bfb3-62f4-4894-8d34-e0fd3f60c64a)
