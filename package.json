@@ -7,7 +7,8 @@
     "dev": "vite",
     "dev:server": "json-server --watch server.json --port 3333 --delay 500",
     "build": "tsc -b && vite build",
-    "lint": "eslint .",
+    "lint": "eslint  src --ext .tsx,.ts",
+    "lint:fix": "eslint  src --ext .tsx,.ts --fix",
     "preview": "vite preview"
   },
   "dependencies": {
