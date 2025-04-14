@@ -36,6 +36,29 @@ Prerequisites:
 or
     yarn install
 
+
+##  Running the App 🚀
+
+ npm run dev
+  or
+ yarn dev
+ 
+The app will be available at http://localhost:5173 (or another port if configured differently).
+
+
+
+##  Start the backend (JSON Server) 🗄️
+This project uses JSON Server to simulate a REST API using the server.json file.
+
+Step 1 – Install JSON Server (if not already):
+ npm install -g json-server
+ 
+Step 2 – Run the backend server:
+ json-server --watch server.json --port 3333
+
+The mock API will be available at:
+👉 http://localhost:3333/transactions
+
 ## Deployment:
 This project can be deployed to any static hosting provider (e.g., Netlify, Vercel) or Firebase Hosting.
 
